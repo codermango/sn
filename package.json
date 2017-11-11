@@ -4,7 +4,7 @@
   "description": "All about Sweden",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/codermango/sn"
   },
   "engines": {
     "npm": ">=3",
