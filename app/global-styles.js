@@ -17,7 +17,8 @@ injectGlobal`
   }
 
   #app {
-    background-color: #fafafa;
+    background-color: #e2e2e2;
+    background-image: url('/images/bg.jpg');
     min-height: 100%;
     min-width: 100%;
   }

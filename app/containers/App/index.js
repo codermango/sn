@@ -22,6 +22,7 @@ import MenuIcon from 'material-ui-icons/Menu';
 import { withStyles } from 'material-ui/styles';
 
 import HomePage from '../HomePage';
+import RentalContentPage from 'containers/RentalContentPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 import 'typeface-roboto';
@@ -54,6 +55,7 @@ function App(props) {
       </AppBar>
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route path="/rental/:id" component={RentalContentPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
     </div>

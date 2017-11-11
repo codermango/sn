@@ -1,0 +1,3 @@
+export const FETCH_RENTAL_CONTENT = 'app/RentalContentPage/FETCH_RENTAL_CONTENT';
+export const FETCH_RENTAL_CONTENT_SUCCESS = 'app/RentalContentPage/FETCH_RENTAL_CONTENT_SUCCESS';
+export const FETCH_RENTAL_CONTENT_ERROR = 'app/RentalContentPage/FETCH_RENTAL_CONTENT_ERROR';

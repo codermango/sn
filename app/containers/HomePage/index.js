@@ -13,7 +13,6 @@ import React from 'react';
 import { withStyles } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
-import { FormattedMessage } from 'react-intl';
 
 import { compose } from 'redux';
 import { connect } from 'react-redux';
@@ -49,14 +48,14 @@ class HomePage extends React.PureComponent { // eslint-disable-line react/prefer
 
     return (
       <div className={classes.root}>
-      <Grid container spacing={24}>
-        <Grid item xs={12}>
-          <Paper className={classes.paper}>
-            { rentals && <RentalList data={rentals} /> }
-          </Paper>
+        <Grid container spacing={24}>
+          <Grid item xs={12}>
+            <Paper className={classes.paper}>
+              { rentals && <RentalList data={rentals} /> }
+            </Paper>
+          </Grid>
         </Grid>
-      </Grid>
-    </div>
+      </div>
     );
   }
 }
